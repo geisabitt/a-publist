@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+import iconCart from "../../images/icons/iconCart.svg";
+import iconNavbar from "../../images/icons/iconNavbar.svg";
+import iconSearch from "../../images/icons/iconSearch.svg";
+
 const NavMenu = styled.nav`
   display: flex;
   align-items: center;
@@ -95,19 +99,13 @@ export const Menu: React.FC = () => {
           </UlMenu>
           <GroupIcons>
             <a href="#">
-              <img
-                src="../../../../public/icons/icon-search.svg"
-                alt="icon search"
-              />
+              <img src={iconSearch} alt="icon search" />
             </a>
             <a href="#">
-              <img
-                src="../../../../public/icons/icon-cart.svg"
-                alt="icon cart"
-              />
+              <img src={iconCart} alt="icon cart" />
             </a>
             <MobileMenuIcon
-              src="../../../../public/icons/icon-navbar.svg"
+              src={iconNavbar}
               alt="icon Navbar"
               onClick={toggleMobileMenu}
             />

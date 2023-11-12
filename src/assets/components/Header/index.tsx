@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
+import Background from "../../images/bg/cover.png";
 import { BookAppointmentForm } from "./BookAppointmentForm";
 import { CompanyCTA } from "./CompanyCTA";
 import { Menu } from "./Menu";
 
 const ContainerHeader = styled.div`
-  background-image: url("../../../../public/image/cover.png");
+  background-image: url(${Background});
   background-size: cover;
 `;
 const ContainerContent = styled.div`
