@@ -8,6 +8,7 @@ import { Menu } from "./Menu";
 const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 70%;
   gap: 120px;
   padding: 50px 0;
