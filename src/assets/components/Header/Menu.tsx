@@ -38,6 +38,7 @@ const UlMenu = styled.ul<{ isMobile: boolean }>`
   }
 
   & li a {
+    color: #737373;
     text-decoration: none;
   }
 `;
@@ -48,7 +49,6 @@ const MenuGroup = styled.div`
 `;
 
 const MobileMenuIcon = styled.img`
-  margin-left: 140px;
   cursor: pointer;
   display: none;
 
@@ -56,7 +56,12 @@ const MobileMenuIcon = styled.img`
     display: block;
   }
 `;
-
+const GroupIcons = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  gap: 24px;
+`;
 const BrandTitle = styled.h2`
   padding: 13px 0;
 `;
@@ -69,47 +74,47 @@ export const Menu: React.FC = () => {
   };
 
   return (
-    <NavMenu>
-      <BrandTitle>Publist</BrandTitle>
+    <>
+      <NavMenu>
+        <BrandTitle>Publist</BrandTitle>
 
-      <MenuGroup>
-        <UlMenu isMobile={MobileMenuOpen}>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Product</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
+        <MenuGroup>
+          <UlMenu isMobile={MobileMenuOpen}>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </UlMenu>
+          <GroupIcons>
             <a href="#">
               <img
                 src="../../../../public/icons/icon-search.svg"
                 alt="icon search"
               />
             </a>
-          </li>
-          <li>
             <a href="#">
               <img
                 src="../../../../public/icons/icon-cart.svg"
                 alt="icon cart"
               />
             </a>
-          </li>
-        </UlMenu>
-        <MobileMenuIcon
-          src="../../../../public/icons/icon-navbar.svg"
-          alt="icon Navbar"
-          onClick={toggleMobileMenu}
-        />
-      </MenuGroup>
-    </NavMenu>
+            <MobileMenuIcon
+              src="../../../../public/icons/icon-navbar.svg"
+              alt="icon Navbar"
+              onClick={toggleMobileMenu}
+            />
+          </GroupIcons>
+        </MenuGroup>
+      </NavMenu>
+    </>
   );
 };
 
