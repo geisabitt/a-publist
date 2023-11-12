@@ -1,9 +1,9 @@
-import "./App.css";
+import { Header } from "./assets/components/Header";
 
 function App() {
   return (
     <>
-      <h1>Publist</h1>
+      <Header />
     </>
   );
 }
