@@ -1,9 +1,9 @@
-import { Header } from "./assets/components/Header";
+import { Home } from "./assets/pages/home";
 
 function App() {
   return (
     <>
-      <Header />
+      <Home />
     </>
   );
 }
