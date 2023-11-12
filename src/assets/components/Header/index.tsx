@@ -5,7 +5,11 @@ import { BookAppointmentForm } from "./BookAppointmentForm";
 import { CompanyCTA } from "./CompanyCTA";
 import { Menu } from "./Menu";
 
-const HeaderContainer = styled.div`
+const ContainerHeader = styled.div`
+  background-image: url("../../../../public/image/cover.png");
+  background-size: cover;
+`;
+const ContainerContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,11 +27,13 @@ const HeaderContainer = styled.div`
 export const Header: React.FC = () => {
   return (
     <>
-      <Menu />
-      <HeaderContainer>
-        <CompanyCTA />
-        <BookAppointmentForm />
-      </HeaderContainer>
+      <ContainerHeader>
+        <Menu />
+        <ContainerContent>
+          <CompanyCTA />
+          <BookAppointmentForm />
+        </ContainerContent>
+      </ContainerHeader>
     </>
   );
 };
