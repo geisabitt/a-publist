@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+import iconNotebook from "../../images/icons/iconNotebook.svg";
+import iconSolidAward from "../../images/icons/iconSolidAward.svg";
+import iconUsersLine from "../../images/icons/iconUsersLine.svg";
+
 const ContainerIndustry = styled.section`
   display: flex;
   flex-direction: column;
@@ -65,6 +69,13 @@ const CardUl = styled.ul`
     margin-left: -1em;
   }
 `;
+const CustomIcon = styled.img`
+  padding: 30px;
+  color: #ff7b47;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+`;
 
 export const Industry: React.FC = () => {
   return (
@@ -80,7 +91,8 @@ export const Industry: React.FC = () => {
         <ContainerCard>
           <Card>
             <CardTop>
-              <p>icone</p> <h5>Business & Finance </h5>
+              <CustomIcon src={iconUsersLine} />
+              <h5>Business & Finance </h5>
             </CardTop>
             <CardUl>
               <li>The best products start with Figma</li>
@@ -93,7 +105,8 @@ export const Industry: React.FC = () => {
           </Card>
           <Card>
             <CardTop>
-              <p>icone</p> <h5>Business & Finance </h5>
+              <CustomIcon src={iconSolidAward} />
+              <h5>Business & Finance </h5>
             </CardTop>
             <CardUl>
               <li>The best products start with Figma</li>
@@ -106,7 +119,8 @@ export const Industry: React.FC = () => {
           </Card>
           <Card>
             <CardTop>
-              <p>icone</p> <h5>Business & Finance </h5>
+              <CustomIcon src={iconNotebook} />
+              <h5>Business & Finance </h5>
             </CardTop>
             <CardUl>
               <li>The best products start with Figma</li>
