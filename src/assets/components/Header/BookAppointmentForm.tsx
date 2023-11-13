@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { CustomInput, CustomSelect } from "../Global.styled";
+
 const Card = styled.div`
   background-color: #fff;
   display: flex;
@@ -21,24 +23,6 @@ const CustomH3 = styled.h3`
 const FormGroup = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-const commonStyles = `
-  color: #737373;
-  padding: 11px 20px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid  #BDBDBD;
-  box-shadow: none; 
-  outline: none;
-
-`;
-const CustomInput = styled.input`
-  ${commonStyles}
-`;
-
-const CustomSelect = styled.select`
-  ${commonStyles}
 `;
 
 const CustomButton = styled.button`

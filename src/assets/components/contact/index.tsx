@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import bgContact from "../../images/icons/bgContact.png";
+import { CustomInput, CustomSelect, CustomTextArea } from "../Global.styled";
 
 const BgImage = styled.div`
   width: 100%;
@@ -32,30 +33,6 @@ const FormGroup = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
-`;
-
-const commonStyles = `
-  color: #737373;
-  padding: 11px 20px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid  #BDBDBD;
-  box-shadow: none; 
-  outline: none;
-  width: 100%;
-  
-
-`;
-const CustomInput = styled.input`
-  ${commonStyles}
-`;
-
-const CustomSelect = styled.select`
-  ${commonStyles}
-`;
-
-const CustomTextArea = styled.textarea`
-  ${commonStyles}
 `;
 
 const CustomButton = styled.button`
