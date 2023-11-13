@@ -80,6 +80,9 @@ const CustomSection = styled.section`
     justify-content: center;
     text-align: center;
   }
+  & p {
+    margin-top: 10px;
+  }
 `;
 
 export const Contact: React.FC = () => {

@@ -2,6 +2,7 @@ import React from "react";
 
 import { Contact } from "../components/contact";
 import { Features } from "../components/Features";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 
 export const Home: React.FC = () => {
@@ -10,6 +11,7 @@ export const Home: React.FC = () => {
       <Header />
       <Features />
       <Contact />
+      <Footer />
     </>
   );
 };
