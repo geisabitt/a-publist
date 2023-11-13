@@ -1,5 +1,5 @@
 import { Home } from "./assets/pages/home";
-import GlobalStyle from "./GlobalStyle";
+import GlobalStyle from "./Reset.Style";
 
 function App() {
   return (

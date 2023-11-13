@@ -5,6 +5,7 @@ import iconFacebook from "../../images/icons/imgFooter/iconFacebook.svg";
 import iconInstagram from "../../images/icons/imgFooter/iconInstagram.svg";
 import iconTwitter from "../../images/icons/imgFooter/iconTwitter.svg";
 import iconYoutube from "../../images/icons/imgFooter/iconYoutube.svg";
+import { SocialGroup } from "../Global.styled";
 
 const ContainerBg = styled.section`
   background-color: #17213c;
@@ -31,10 +32,6 @@ const BrandFooter = styled.div`
   justify-content: space-between;
   width: 100%;
   align-items: center;
-`;
-const SocialIcons = styled.div`
-  display: flex;
-  gap: 10px;
 `;
 const AjustFooter = styled.div`
   display: flex;
@@ -87,12 +84,12 @@ export const Footer: React.FC = () => {
         <Container>
           <BrandFooter>
             <h3>Publist</h3>
-            <SocialIcons>
+            <SocialGroup>
               <img src={iconFacebook}></img>
               <img src={iconInstagram}></img>
               <img src={iconTwitter}></img>
               <img src={iconYoutube}></img>
-            </SocialIcons>
+            </SocialGroup>
           </BrandFooter>
         </Container>
         <Container>

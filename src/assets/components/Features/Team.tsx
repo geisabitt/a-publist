@@ -7,6 +7,7 @@ import iconTwitter from "../../images/icons/imgTeam/iconTwitter.svg";
 import UserTeam1 from "../../images/icons/imgTeam/UserTeam1.png";
 import UserTeam2 from "../../images/icons/imgTeam/UserTeam2.png";
 import UserTeam3 from "../../images/icons/imgTeam/UserTeam3.png";
+import { SocialGroup } from "../Global.styled";
 import {
   Container,
   ContainerCard,
@@ -25,11 +26,6 @@ const Card = styled(CustomCard)`
   & h6 {
     color: #737373;
   }
-`;
-const SocialGroup = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 10px;
 `;
 
 export const Team: React.FC = () => {
