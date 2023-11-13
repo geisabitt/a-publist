@@ -71,7 +71,6 @@ export const Team: React.FC = () => {
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </CustomP>
-
             <h5>Regina Miles</h5>
             <h6>Designer</h6>
             <SocialGroup>
@@ -88,8 +87,7 @@ export const Team: React.FC = () => {
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </CustomP>
-
-            <a href="#">Regina Miles</a>
+            <h5>Regina Miles</h5>
             <h6>Designer</h6>
             <SocialGroup>
               <img src={iconFacebook} alt="icon Facebook" />
@@ -103,8 +101,7 @@ export const Team: React.FC = () => {
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </CustomP>
-
-            <a href="#">Regina Miles</a>
+            <h5>Regina Miles</h5>
             <h6>Designer</h6>
             <SocialGroup>
               <img src={iconFacebook} alt="icon Facebook" />
