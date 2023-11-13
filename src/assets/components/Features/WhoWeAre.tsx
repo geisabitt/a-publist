@@ -3,28 +3,13 @@ import styled from "styled-components";
 
 import ExampleVideo from "../../images/icons/exampleVideo.jpg";
 import iconPlay from "../../images/icons/iconPlay.svg";
+import { Container, CustomP, MainContent } from "./Features.styled";
 
 const BgGradient = styled.div`
   width: 100%;
   background: linear-gradient(180deg, #fff 65%, rgba(23, 33, 60, 1) 65%);
 `;
-const ContainerWhoWeAre = styled.section`
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 80px 10px;
-  gap: 80px;
-  width: 90%;
-  min-width: 328px;
-`;
-const MainContent = styled.div`
-  text-align: center;
-`;
-const CustomP = styled.p`
-  margin: 20px auto;
-  max-width: 470px;
-  width: 90%;
-`;
+
 const ContainerVideo = styled.div`
   position: relative;
   margin: 0 auto;
@@ -51,7 +36,7 @@ export const WhoWeAre: React.FC = () => {
   return (
     <>
       <BgGradient>
-        <ContainerWhoWeAre>
+        <Container>
           <MainContent>
             <h2>Who We Are</h2>
             <CustomP>
@@ -63,7 +48,7 @@ export const WhoWeAre: React.FC = () => {
             <ContainerExampleVideo src={ExampleVideo} alt="Example Video" />
             <CustomIcon src={iconPlay} />
           </ContainerVideo>
-        </ContainerWhoWeAre>
+        </Container>
       </BgGradient>
     </>
   );

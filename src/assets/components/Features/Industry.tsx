@@ -4,37 +4,15 @@ import styled from "styled-components";
 import iconNotebook from "../../images/icons/iconNotebook.svg";
 import iconSolidAward from "../../images/icons/iconSolidAward.svg";
 import iconUsersLine from "../../images/icons/iconUsersLine.svg";
+import {
+  Container,
+  ContainerCard,
+  CustomCard,
+  CustomP,
+  MainContent,
+} from "./Features.styled";
 
-const ContainerIndustry = styled.section`
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 80px 10px;
-  gap: 80px;
-  width: 90%;
-  min-width: 328px;
-`;
-const MainContent = styled.div`
-  text-align: center;
-`;
-const CustomP = styled.p`
-  margin: 20px auto;
-  max-width: 470px;
-  width: 90%;
-`;
-const ContainerCard = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-`;
-
-const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 350px;
-  margin-bottom: 50px;
+const Card = styled(CustomCard)`
   & a {
     text-decoration: none;
     font-weight: bold;
@@ -80,7 +58,7 @@ const CustomIcon = styled.img`
 export const Industry: React.FC = () => {
   return (
     <>
-      <ContainerIndustry>
+      <Container>
         <MainContent>
           <h2>Industry</h2>
           <CustomP>
@@ -132,7 +110,7 @@ export const Industry: React.FC = () => {
             </CardUl>
           </Card>
         </ContainerCard>
-      </ContainerIndustry>
+      </Container>
     </>
   );
 };

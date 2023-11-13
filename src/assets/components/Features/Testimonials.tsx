@@ -4,38 +4,17 @@ import styled from "styled-components";
 import iconStar from "../../images/icons/imgTestimonials/iconStar.svg";
 import iconStarClear from "../../images/icons/imgTestimonials/iconStarClear.svg";
 import userAvatar from "../../images/icons/imgTestimonials/userAvatar.png";
+import {
+  Container,
+  ContainerCard,
+  CustomCard,
+  CustomP,
+  MainContent,
+} from "./Features.styled";
 
-const Container = styled.section`
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 80px 10px;
-  gap: 80px;
-  width: 90%;
-  min-width: 328px;
-`;
-const MainContent = styled.div`
-  text-align: center;
-`;
-const CustomP = styled.p`
-  margin: 20px auto;
-  max-width: 470px;
-  width: 90%;
-`;
-const ContainerCard = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-`;
-
-const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  max-width: 350px;
+const Card = styled(CustomCard)`
   margin-bottom: 50px;
-  width: 100%;
+  gap: 10px;
   background-color: #fff;
   border: 1px solid #a9d6ff;
   border-radius: 10px;
