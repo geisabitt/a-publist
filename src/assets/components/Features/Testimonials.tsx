@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-import iconStar from "../../images/icons/iconTestimonials/iconStar.svg";
-import iconStarClear from "../../images/icons/iconTestimonials/iconStarClear.svg";
-import userAvatar from "../../images/icons/iconTestimonials/userAvatar.png";
+import iconStar from "../../images/icons/imgTestimonials/iconStar.svg";
+import iconStarClear from "../../images/icons/imgTestimonials/iconStarClear.svg";
+import userAvatar from "../../images/icons/imgTestimonials/userAvatar.png";
 
 const Container = styled.section`
   display: flex;
