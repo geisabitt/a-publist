@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import Background from "../../images/bg/cover.png";
+import Background from "../../assets/images/bg/cover.png";
 import { BookAppointmentForm } from "./BookAppointmentForm";
 import { CompanyCTA } from "./CompanyCTA";
 import { Menu } from "./Menu";

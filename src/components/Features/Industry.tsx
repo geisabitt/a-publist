@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-import iconNotebook from "../../images/icons/iconNotebook.svg";
-import iconSolidAward from "../../images/icons/iconSolidAward.svg";
-import iconUsersLine from "../../images/icons/iconUsersLine.svg";
+import iconNotebook from "../../assets/images/icons/iconNotebook.svg";
+import iconSolidAward from "../../assets/images/icons/iconSolidAward.svg";
+import iconUsersLine from "../../assets/images/icons/iconUsersLine.svg";
 import {
   Container,
   ContainerCard,

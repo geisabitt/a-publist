@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import ExampleVideo from "../../images/icons/exampleVideo.jpg";
-import iconPlay from "../../images/icons/iconPlay.svg";
+import ExampleVideo from "../../assets/images/icons/exampleVideo.jpg";
+import iconPlay from "../../assets/images/icons/iconPlay.svg";
 import { Container, CustomP, MainContent } from "./Features.styled";
 
 const BgGradient = styled.div`

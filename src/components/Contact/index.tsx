@@ -1,8 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-import bgContact from "../../images/icons/bgContact.png";
-import { CustomInput, CustomSelect, CustomTextArea } from "../Global.styled";
+import bgContact from "../../assets/images/icons/bgContact.png";
+import {
+  CustomButton,
+  CustomInput,
+  CustomSelect,
+  CustomTextArea,
+} from "../Global.styled";
 
 const BgImage = styled.div`
   width: 100%;
@@ -22,10 +27,11 @@ const CustomForm = styled.form`
     width: 100%;
   }
 `;
-const ContainetTitle = styled.div`
+const ContainerTitle = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+  width: 100%;
 `;
 const FormGroup = styled.div`
   display: flex;
@@ -35,17 +41,6 @@ const FormGroup = styled.div`
   }
 `;
 
-const CustomButton = styled.button`
-  background-color: #ff7b47;
-  padding: 10px 36px;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  margin-top: 40px;
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
 const CustomSection = styled.section`
   display: flex;
   justify-content: space-between;
@@ -67,10 +62,10 @@ export const Contact: React.FC = () => {
     <>
       <BgImage>
         <CustomForm>
-          <ContainetTitle>
+          <ContainerTitle>
             <h5>Contact Us</h5>
             <h2>Make an Appointment</h2>
-          </ContainetTitle>
+          </ContainerTitle>
           <FormGroup>
             <CustomInput
               name="name"

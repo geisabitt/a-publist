@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import iconCart from "../../images/icons/iconCart.svg";
-import iconNavbar from "../../images/icons/iconNavbar.svg";
-import iconSearch from "../../images/icons/iconSearch.svg";
+import iconCart from "../../assets/images/icons/iconCart.svg";
+import iconNavbar from "../../assets/images/icons/iconNavbar.svg";
+import iconSearch from "../../assets/images/icons/iconSearch.svg";
 
 const NavMenu = styled.nav`
   display: flex;

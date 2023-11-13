@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-import iconFacebook from "../../images/icons/imgTeam/iconFacebook.svg";
-import iconInstagram from "../../images/icons/imgTeam/iconInstagram.svg";
-import iconTwitter from "../../images/icons/imgTeam/iconTwitter.svg";
-import UserTeam1 from "../../images/icons/imgTeam/UserTeam1.png";
-import UserTeam2 from "../../images/icons/imgTeam/UserTeam2.png";
-import UserTeam3 from "../../images/icons/imgTeam/UserTeam3.png";
+import iconFacebook from "../../assets/images/icons/imgTeam/iconFacebook.svg";
+import iconInstagram from "../../assets/images/icons/imgTeam/iconInstagram.svg";
+import iconTwitter from "../../assets/images/icons/imgTeam/iconTwitter.svg";
+import UserTeam1 from "../../assets/images/icons/imgTeam/UserTeam1.png";
+import UserTeam2 from "../../assets/images/icons/imgTeam/UserTeam2.png";
+import UserTeam3 from "../../assets/images/icons/imgTeam/UserTeam3.png";
 import { SocialGroup } from "../Global.styled";
 import {
   Container,

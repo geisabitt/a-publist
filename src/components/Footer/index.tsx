@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import iconFacebook from "../../images/icons/imgFooter/iconFacebook.svg";
-import iconInstagram from "../../images/icons/imgFooter/iconInstagram.svg";
-import iconTwitter from "../../images/icons/imgFooter/iconTwitter.svg";
-import iconYoutube from "../../images/icons/imgFooter/iconYoutube.svg";
+import iconFacebook from "../../assets/images/icons/imgFooter/iconFacebook.svg";
+import iconInstagram from "../../assets/images/icons/imgFooter/iconInstagram.svg";
+import iconTwitter from "../../assets/images/icons/imgFooter/iconTwitter.svg";
+import iconYoutube from "../../assets/images/icons/imgFooter/iconYoutube.svg";
 import { SocialGroup } from "../Global.styled";
 
 const ContainerBg = styled.section`

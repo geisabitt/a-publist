@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { CustomInput, CustomSelect } from "../Global.styled";
+import { CustomButton, CustomInput, CustomSelect } from "../Global.styled";
 
 const Card = styled.div`
   background-color: #fff;
@@ -25,14 +25,8 @@ const FormGroup = styled.div`
   flex-direction: column;
 `;
 
-const CustomButton = styled.button`
-  background-color: #ff7b47;
-  padding: 10px 36px;
-  margin-top: 40px;
+const Button = styled(CustomButton)`
   width: 100%;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
 `;
 
 export const BookAppointmentForm: React.FC = () => {
@@ -78,7 +72,7 @@ export const BookAppointmentForm: React.FC = () => {
               <option value="option3">Option 3</option>
             </CustomSelect>
           </FormGroup>
-          <CustomButton>Book Appointment</CustomButton>
+          <Button>Book Appointment</Button>
         </form>
       </Card>
     </>

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: #efefef;
-    font-family: Montserrat, sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
     color: #252B42;
     & a{
         color: #252B42;

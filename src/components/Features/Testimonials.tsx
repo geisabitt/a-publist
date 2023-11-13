@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-import iconStar from "../../images/icons/imgTestimonials/iconStar.svg";
-import iconStarClear from "../../images/icons/imgTestimonials/iconStarClear.svg";
-import userAvatar from "../../images/icons/imgTestimonials/userAvatar.png";
+import iconStar from "../../assets/images/icons/imgTestimonials/iconStar.svg";
+import iconStarClear from "../../assets/images/icons/imgTestimonials/iconStarClear.svg";
+import userAvatar from "../../assets/images/icons/imgTestimonials/userAvatar.png";
 import {
   Container,
   ContainerCard,
@@ -16,7 +16,7 @@ const Card = styled(CustomCard)`
   margin-bottom: 50px;
   gap: 10px;
   background-color: #fff;
-  border: 1px solid #a9d6ff;
+  border: 1px solid #dedede;
   border-radius: 10px;
   & a {
     text-decoration: none;
