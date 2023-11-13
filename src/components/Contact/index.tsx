@@ -22,9 +22,13 @@ const CustomForm = styled.form`
   min-width: 328px;
   max-width: 600px;
   padding: 80px 40px;
+  margin-left: 100px;
   width: 100%;
   & h3 {
     width: 100%;
+  }
+  @media (max-width: 768px) {
+    margin-left: 0;
   }
 `;
 const ContainerTitle = styled.div`
